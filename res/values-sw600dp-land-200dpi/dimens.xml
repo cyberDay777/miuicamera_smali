@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_action_top_margin">-100.0dip</dimen>
+    <dimen name="makeup_item_list_view_width">80.149994dip</dimen>
+    <dimen name="mode_select_item_text_size_mm">16.0dip</dimen>
+    <dimen name="pad_beauty_root_layout_margin_left_portrait">10.0dip</dimen>
+    <dimen name="pad_beauty_slide_top_margin_mm">148.0dip</dimen>
+    <dimen name="pad_beauty_tip_layout_top_margin_mm">148.0dip</dimen>
+    <dimen name="pad_menu_select_text_padding">35.329987dip</dimen>
+    <dimen name="pad_menu_tab_right_margin">980.0dip</dimen>
+    <dimen name="pad_mode_selector_left">18.0dip</dimen>
+    <dimen name="slide_line_height_mm">15.179993dip</dimen>
+    <dimen name="slide_line_select_height_mm">31.0dip</dimen>
+    <dimen name="zoom_tip_animation_start_textview">95.44998dip</dimen>
+    <dimen name="beauty_list_padding_pad">16.0dip</dimen>
+    <dimen name="pad_mode_selector_red_dot_top">20.0dip</dimen>
+</resources>

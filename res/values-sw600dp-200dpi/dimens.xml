@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beauty_process_width_mm">60.0dip</dimen>
+    <dimen name="beauty_slider_view_width">75.75998dip</dimen>
+    <dimen name="bokeh_line_selected_width_cv">2.0999756dip</dimen>
+    <dimen name="common_mode_select_vivw_ver_bottom_margin">143.0dip</dimen>
+    <dimen name="makeup_item_list_view_width">80.149994dip</dimen>
+    <dimen name="mode_select_item_text_size_mm">16.0dip</dimen>
+    <dimen name="pad_beauty_root_layout_margin_left_portrait">10.0dip</dimen>
+    <dimen name="pad_beauty_slide_top_margin_mm">148.0dip</dimen>
+    <dimen name="pad_beauty_tip_layout_top_margin_mm">148.0dip</dimen>
+    <dimen name="pad_menu_select_text_padding">35.329987dip</dimen>
+    <dimen name="pad_menu_tab_right_margin">540.0dip</dimen>
+    <dimen name="pad_scale_ev_height">446.0dip</dimen>
+    <dimen name="slide_line_height_mm">13.179993dip</dimen>
+    <dimen name="slide_line_select_height_mm">27.0dip</dimen>
+    <dimen name="v6_setting_status_bar_textSize">140.0sp</dimen>
+    <dimen name="video_prompter_layout_margin_start">90.0dip</dimen>
+    <dimen name="zoom_ratio_translate_x_horizontal">86.72998dip</dimen>
+    <dimen name="zoom_ratio_translate_x_vertical">20.619995dip</dimen>
+    <dimen name="zoom_tip_animation_start_textview">95.44998dip</dimen>
+    <dimen name="beauty_list_padding_pad">16.0dip</dimen>
+</resources>
