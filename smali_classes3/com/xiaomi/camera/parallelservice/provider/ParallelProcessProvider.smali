@@ -727,19 +727,6 @@
     invoke-virtual {p2, p0}, Ljava/io/PrintWriter;->println(Ljava/lang/String;)V
 
     :goto_1
-    invoke-static {}, Le1/b;->b()Lh1/c;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Lh1/b;->t()Ljava/util/ArrayList;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object p0
-
-    const/4 v0, 0x0
 
     :cond_2
     :goto_2

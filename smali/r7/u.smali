@@ -3023,11 +3023,11 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    const-string v1, "com.miui.gallery.SAVE_TO_CLOUD"
+    const-string v1, "android.intent.category.APP_GALLERY.SAVE_TO_CLOUD"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v1, "com.miui.gallery"
+    const-string v1, "android.intent.category.APP_GALLERY"
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -3993,7 +3993,7 @@
 .method public static v(Landroid/content/Context;Ljava/lang/String;ZJZJ)V
     .locals 6
 
-    const-string v0, "com.miui.gallery.scanner"
+    const-string v0, "android.intent.category.APP_GALLERY.scanner"
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -4087,7 +4087,7 @@
     if-nez p0, :cond_1
 
     :try_start_1
-    const-string p1, "failed to acquire com.miui.gallery.scanner provider client."
+    const-string p1, "failed to acquire android.intent.category.APP_GALLERY.scanner provider client."
 
     new-array p2, v2, [Ljava/lang/Object;
 
@@ -4129,7 +4129,7 @@
 
     :goto_1
     :try_start_2
-    const-string p2, "failed to call com.miui.gallery.scanner, throwable."
+    const-string p2, "failed to call android.intent.category.APP_GALLERY.scanner, throwable."
 
     invoke-static {v4, p2, p1}, Lcom/android/camera/log/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
@@ -4147,7 +4147,7 @@
     move-object p0, v5
 
     :goto_2
-    const-string p2, "failed to call com.miui.gallery.scanner, remote dead object."
+    const-string p2, "failed to call android.intent.category.APP_GALLERY.scanner, remote dead object."
 
     invoke-static {v4, p2, p1}, Lcom/android/camera/log/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
     :try_end_2

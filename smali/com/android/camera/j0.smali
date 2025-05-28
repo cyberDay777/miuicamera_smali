@@ -138,13 +138,13 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    const-string v2, "com.miui.gallery.action.BIND_SERVICE"
+    const-string v2, "android.intent.category.APP_GALLERY.action.BIND_SERVICE"
 
     invoke-direct {v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v2, "com.miui.gallery"
+    const-string v2, "android.intent.category.APP_GALLERY"
 
-    invoke-virtual {v0, v2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v2}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
     iget-object v2, p0, Lcom/android/camera/i3;->f:Lcom/android/camera/i3$a;
 
