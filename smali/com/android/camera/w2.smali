@@ -323,54 +323,12 @@
 .end method
 
 .method public static p(Landroid/content/Intent;)Z
-    .locals 3
+ 
+    .locals 1
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
-    if-eqz p0, :cond_1
-
-    const-string v1, "StartActivityWhenLocked"
-
-    invoke-virtual {p0, v1, v0}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    const-string v1, "android.media.action.STILL_IMAGE_CAMERA_SECURE"
-
-    invoke-virtual {p0}, Landroid/content/Intent;->getAction()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-eqz p0, :cond_1
-
-    :cond_0
-    const/4 p0, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    move p0, v0
-
-    :goto_0
-    const-string v1, "start activity when locked: "
-
-    invoke-static {v1, p0}, La1/c0;->c(Ljava/lang/String;Z)Ljava/lang/String;
-
-    move-result-object v1
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    const-string v2, "CameraIntentManager"
-
-    invoke-static {v2, v1, v0}, Lcom/android/camera/log/Log;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    return p0
+    return v0
 .end method
 
 .method public static s(Landroid/content/Intent;)Z
